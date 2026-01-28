@@ -2,7 +2,13 @@
 // Modifica la siguiente función creando una nueva variable llamada nombre y asignándole tu nombre. La función debe retornar esta nueva variable que contiene tu nombre
 
 function obtenerNombre() {
-    // Escribe tu código aquí
+    // function obtenerNombre() {
+    const nombre = "Jorge Salcedo";
+    console.log(nombre);
+    return nombre;
+}
+
+obtenerNombre();
 }
 
 // No modificar.
