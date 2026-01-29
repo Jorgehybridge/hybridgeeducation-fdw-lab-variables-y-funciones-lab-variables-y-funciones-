@@ -1,7 +1,12 @@
 // Ejercicio 2: Uso de Constantes en Funciones
 // Declara una función llamada "obtenerPI" que retorne el valor 3.1416
 
-//define tu función aquí
+ Función que retorna el valor de Pi
+function ObtenerPi() {
+    return 3.1416;
+}
+console.log(ObtenerPi());
+
 
 
 // No modificar
