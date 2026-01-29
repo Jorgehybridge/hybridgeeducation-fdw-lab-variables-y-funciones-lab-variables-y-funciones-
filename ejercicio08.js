@@ -5,7 +5,13 @@
 // concatenarCadenas("Hola", "Mundo") => "HolaMundo"
 // concatenarCadenas("Frase", "de prueba") => "Frasede prueba"
 
-//escribe aquí tu función. Recuerda que el nombre de la función debe ser exactamente "concatenarCadenas"
+function concatenarCadenas(cadena1, cadena2) {
+    return cadena1 + cadena2;
+}
+
+// Ejemplos:
+console.log(concatenarCadenas("¡Qué onda raza!", "raza")); // "¡Qué onda raza!raza"
+console.log(concatenarCadenas("Frase", "de prueba")); // "Probando, 1,2,3, probando"
 
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
