@@ -6,8 +6,13 @@
 // invertirCadena("anita lava la tina") // debe retornar "anit al aval atina"
 
 function invertirCadena(cadena) {
-    // Escribe tu código aquí
+function invertirCadena(cadena) {
+    return cadena.split("").reverse().join("");
 }
+
+// Ejemplos:
+console.log(invertirCadena("Hola raza")); // debe retornar "azar aloH"
+console.log(invertirCadena("Juanito clavo un clavito")); // debe retornar "otivalc nu ovalc otinauJ"
 
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
